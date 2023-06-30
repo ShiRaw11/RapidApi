@@ -29,7 +29,7 @@ function App() {
         setName(l.name.common);
         setCapital(l.capital[0]);
         setLanguage([...d]);
-        setPopulation(response.data[0].population);
+        setPopulation(l.population);
         setImage(l.flag);
       });
     } catch (error) {
