@@ -1,8 +1,8 @@
 {
   "name": "rapidapihub-app",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
- "homepage": " https://ShiRaw11.github.io/RapidApiHub-App",
+ "homepage": "https://ShiRaw11.github.io/RapidApiHub-App",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
